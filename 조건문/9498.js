@@ -1,16 +1,12 @@
 /*
 let inputData = require("fs")
   .readFileSync("score.txt")
-  .toString()
-  .split(" ");
+  .toString();
 */
 const fs = require("fs");
-const inputData = fs
-  .readFileSync(0, "utf8")
-  .toString()
-  .split(" ");
+const inputData = fs.readFileSync(0, "utf8").toString();
 
-const score = parseInt(inputData[0]);
+const score = parseInt(inputData);
 
 if (score >= 90) console.log("A");
 else if (score >= 80) console.log("B");
