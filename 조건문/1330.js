@@ -1,6 +1,6 @@
 /*
 let inputData = require("fs")
-  .readFileSync("example.txt")
+  .readFileSync("./example/example.txt")
   .toString()
   .split(" ");
 */

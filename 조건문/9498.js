@@ -1,6 +1,6 @@
 /*
 let inputData = require("fs")
-  .readFileSync("score.txt")
+  .readFileSync("./example/score.txt")
   .toString();
 */
 const fs = require("fs");
